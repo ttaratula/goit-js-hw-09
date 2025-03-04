@@ -99,7 +99,7 @@ const images = [
   
   container.innerHTML = createCardsMarkup(images);
 
- new SimpleLightbox('.gallery a');
+//  new SimpleLightbox('.gallery a');
 
  const lightbox = new SimpleLightbox('.gallery a', {
     captionsData: 'alt',
